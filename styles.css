@@ -1,0 +1,50 @@
+body { 
+	margin:0; 
+    padding:0; 
+}
+ 
+.container {
+    width:980px;
+    margin:0 auto;
+}
+.header { 
+    height:140px;
+    margin-bottom:15px;
+    background-color:#0d7963;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    	
+}
+.content {
+    width:690px;
+    height:450px;
+    background-color:#0d7963;
+    float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.sidebar {
+    width:275px;
+    height:450px;
+    background-color:#0d7963;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.footer {
+    height:70px;
+    margin-top:15px;
+    background-color:#0d7963;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.clear {
+    clear:both;
+}
